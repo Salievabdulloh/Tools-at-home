@@ -1,5 +1,26 @@
 {
     "data": {
         "Home": "Home"
-    }
+    },
+    "page7": {
+    "1": "Checkout",
+    "2": "1. Delivery method",
+    "3": "Pickup point",
+    "4": "Delivery",
+    "5": "Total",
+    "6": "Number of items",
+    "7": "Submit order",
+    "8": "Back to cart",
+    "9": "450078, Ufa, Vetoshnikova St., 25A, -1st floor (Sat-Sun closed)",
+    "10": "2. Your information",
+    "11": "Full name",
+    "12": "Comment",
+    "13": "Phone",
+    "14": "Email",
+    "15": "3. Choose a payment method",
+    "16": "Payment by card transfer (as an individual)",
+    "17": "Payment via bank invoice (as an individual)",
+    "18": "Payment via invoice (for legal entities)",
+    "19": "After submitting the order, the manager will review it and coordinate the payment method with you"
+}
 }
