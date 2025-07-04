@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import img from "./map.png"
 
+
 const page7 = () => {
   let { t } = useTranslation()
   return (
