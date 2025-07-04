@@ -17,7 +17,8 @@ const Layout = () => {
             <option value="tj">Tajik</option>
             <option value="en">English</option>
           </select>
-          <img src="/menu2.png" />
+          <p className="font-medium text-[14px] md:hidden md:text-[20px]">8 800 450 10 10</p>
+          <img src="/menu2.png" className="md:hidden" />
           <div className="hidden md:flex gap-10">
             <Link to={"/"}>{t("data.Home")}</Link >
             <Link to={"/page2"}>Page2</Link >
@@ -50,7 +51,48 @@ const Layout = () => {
       <main className="bg-[whitesmoke]">
         <Outlet />
       </main>
-      <footer></footer>
+      <footer className="px-25  pt-[33px]">
+        <div className="md:flex font-bold justify-between">
+          <p>Каталог продукции</p>
+          <p>Меню сайтаa</p>
+          <p>Наши контакты</p>
+        </div>
+        <div className="text-[14px] flex justify-between mt-5 ">
+          <div className="flex gap-20">
+            <div className="flex flex-col gap-[25px]">
+              <p>Инструменты</p>
+              <p>Сантехника</p>
+              <p>Электрика</p>
+              <p>Туризм и рыбалка</p>
+              <p>Товары для дома</p>
+            </div>
+            <div className="flex flex-col gap-[25px]">
+              <p>Стройматериалы</p>
+              <p>Крепеж</p>
+              <p>Товары для детей</p>
+              <p>Сад и огород</p>
+              <p>Отопление и <br /> водоснабжение</p>
+            </div>
+            <div className="flex flex-col gap-[25px]">
+              <p>Бытовая техника</p>
+              <p>Спорттовары</p>
+              <p>Кухонные товары</p>
+              <p>Автотовары</p>
+            </div>
+            <div className="flex ml-[30px] flex-col gap-[25px]">
+              <p>Главная</p>
+              <p>О магазине</p>
+              <p>Оплата и доставка</p>
+              <p>Гарантия и возврат</p>
+              <p>Контакты</p>
+            </div>
+          </div>
+          <div className="">
+            <p>Мы в соц сетях:</p>
+            <img src="/social.png" />
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
