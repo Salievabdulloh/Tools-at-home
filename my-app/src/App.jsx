@@ -1,6 +1,6 @@
 import { Suspense } from "react"
 import { Route, Routes } from "react-router"
-import { Page2,Page3,Page4,Page5,Page6,Page6,Page7,Page8, Home, Layout } from "./pages/lazy/lazy"
+import { Page2, Page3, Page4, Page5, Page6, Page7, Page8, Home, Layout } from "./pages/lazy/lazy"
 
 function App() {
   return (
